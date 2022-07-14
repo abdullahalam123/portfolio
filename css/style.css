@@ -475,7 +475,7 @@ img{
     width: 600px;
     align-content: center;
     text-align: center;
-    transform: translateX(-4rem);
+    transform: translateX(-2rem);
 }
 
 .home__welcome{
