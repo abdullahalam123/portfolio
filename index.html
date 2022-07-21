@@ -84,7 +84,8 @@
 
                     <li class="nav__item">
                         <a href="#contact" class="nav__link">
-                            <i class="uil uil-message nav__icon"></i>Contact Us
+                            <i class="uil uil-message nav__icon"></i>Contact
+
                         </a>
                     </li>
                 </ul>
@@ -135,7 +136,7 @@
                     </div>
                 </div>
 
-                <div class="home__data">
+                <div class="home__data" style="padding-right : 10%;">
                     <small class="home__welcome s-color"> Welcome to my Portfolio Website! </small>
                     <h1 class="home__title"> Hey👋 I'm </h1>
                     <div id="typewriter"></div>
@@ -189,7 +190,7 @@
                 </div> -->
 
                 <div class="about__buttons">
-                    <a href="#" download="my_CV" target="_blank" class="button button--flex">
+                    <a href="CV.pdf" download="my_CV" target="_blank" class="button button--flex">
                          Resume <i class="uil uil-download-alt button__icon"></i>
                     </a>
                 </div>
@@ -753,73 +754,86 @@
             <div class="blog-slider">
                 <div class="blog-slider__wrp swiper-wrapper">
 
-                    <!-- For portfolio item 1 -->
-                    <div class="blog-slider__item swiper-slide">
-                        <div class="blog-slider__img">
-                            <img src="#" alt="Twitter type SNS ">
-                        </div>
-
-                        <div class="blog-slider__content">
-                            <span class="blog-slider__code"> July 2021</span>
-                            <div class="blog-slider__title"> Lorem ipsum </div>
-                            <div class="blog-slider__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit..</div>
-                            <a href="#" target="_blank" class="button blog-slider__button button--flex">
-                                Demo
-                                <i class="uil uil-play button__icon"></i>
-                            </a>
-                        </div>
+                  <!-- For portfolio item 1 -->
+                  <div class="blog-slider__item swiper-slide">
+                    <div class="blog-slider__img">
+                      <img src="assets/img/movie.png" alt="Twitter type SNS ">
                     </div>
 
-                    <!-- For portfolio item 2 -->
-                    <div class="blog-slider__item swiper-slide">
-                        <div class="blog-slider__img">
-                            <img src="#" alt="Portfolio item">
-                        </div>
+                    <div class="blog-slider__content">
+                      <span class="blog-slider__code"> July</span>
+                      <div class="blog-slider__title"> Filmore </div>
+                      <div class="blog-slider__text"> A Web App to show category-wise movie list using React.js
+                        for front-end and Material-UI for styling. Has various features such as Login , mark as Favorite, watch
+                        Trailer and add to Watchlist <br>
+                        It uses MovieDB API to fetch and display movies and Alan AI for voice
+                        command bot to navigate the website and search for movies without a
+                        single click.</div>
+                      <a href="https://filmore-app.netlify.app/" target="_blank" class="button blog-slider__button button--flex">
+                        Demo
+                        <i class="uil uil-play button__icon"></i>
+                      </a>
+                    </div>
+                  </div>
 
-                        <div class="blog-slider__content">
-                            <span class="blog-slider__code"> December</span>
-                            <div class="blog-slider__title"> Lorem ipsum </div>
-                            <div class="blog-slider__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.. </div>
-                            <a href="#" target="_blank" class="button blog-slider__button button--flex">
-                                Demo
-                                <i class="uil uil-play button__icon"></i>
-                            </a>
-                        </div>
+                  <!-- For portfolio item 2 -->
+                  <div class="blog-slider__item swiper-slide">
+                    <div class="blog-slider__img">
+                      <img src="assets/img/notes.png" alt="Portfolio item">
                     </div>
 
-                    <!-- For portfolio item 3 -->
-                    <div class="blog-slider__item swiper-slide">
-                        <div class="blog-slider__img">
-                            <img src="#" alt="Portfolio item">
-                        </div>
+                    <div class="blog-slider__content">
+                      <span class="blog-slider__code"> June </span>
+                      <div class="blog-slider__title"> Noterr </div>
+                      <div class="blog-slider__text"> A Google Keep inspired that Web App made using Hooks and States in
+                        React.js. <br>
+                        There are separate components for Notes, Input Area, Header and Footer. <br>
+                        Added the features to dynamically Add and Delete Notes by passing
+                        required parameters to each of the components </div>
+                      <a href="https://noterr-app.netlify.app/" target="_blank" class="button blog-slider__button button--flex">
+                        Demo
+                        <i class="uil uil-play button__icon"></i>
+                      </a>
+                    </div>
+                  </div>
 
-                        <div class="blog-slider__content">
-                            <span class="blog-slider__code"> October 2020</span>
-                            <div class="blog-slider__title"> Lorem ipsum </div>
-                            <div class="blog-slider__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                            <a href="#" target="_blank" class="button blog-slider__button button--flex">
-                                Demo
-                                <i class="uil uil-play button__icon"></i>
-                            </a>
-                        </div>
+                  <!-- For portfolio item 3 -->
+                  <div class="blog-slider__item swiper-slide">
+                    <div class="blog-slider__img">
+                      <img src="assets/img/signup.png" alt="Portfolio item">
                     </div>
 
-                    <!-- For portfolio item 4 -->
-                    <div class="blog-slider__item swiper-slide">
-                        <div class="blog-slider__img">
-                            <img src="#" alt="Portfolio item">
-                        </div>
-
-                        <div class="blog-slider__content">
-                            <span class="blog-slider__code"> December 2020</span>
-                            <div class="blog-slider__title"> Lorem ipsum</div>
-                            <div class="blog-slider__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                            <a href="#" target="_blank" class="button blog-slider__button button--flex">
-                                Demo
-                                <i class="uil uil-play button__icon"></i>
-                            </a>
-                        </div>
+                    <div class="blog-slider__content">
+                      <span class="blog-slider__code"> June </span>
+                      <div class="blog-slider__title"> Newsletter Signup </div>
+                      <div class="blog-slider__text"> Developed a Newsletter Signup page which sends the data entered to
+                        mailchimp’s servers via API calls. <br>
+                        Created a standard Signup page using Bootstrap which collect’s the
+                        user’s name and email address. <br>
+                        Tech Used : Express.js, Node.js, Mailchimp API, JSON.</div>
+                      <a href="https://lit-spire-51511.herokuapp.com/" target="_blank" class="button blog-slider__button button--flex">
+                        Demo
+                        <i class="uil uil-play button__icon"></i>
+                      </a>
                     </div>
+                  </div>
+
+                  <!-- For portfolio item 4 -->
+                  <!-- <div class="blog-slider__item swiper-slide">
+                                <div class="blog-slider__img">
+                                    <img src="#" alt="Portfolio item">
+                                </div>
+
+                                <div class="blog-slider__content">
+                                    <span class="blog-slider__code"> December 2020</span>
+                                    <div class="blog-slider__title"> Lorem ipsum</div>
+                                    <div class="blog-slider__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                    <a href="#" target="_blank" class="button blog-slider__button button--flex">
+                                        Demo
+                                        <i class="uil uil-play button__icon"></i>
+                                    </a>
+                                </div>
+                            </div> -->
 
                     <div class="blog-slider__pagination"></div>
                 </div>
@@ -898,10 +912,10 @@
         <div class="footer__bg">
             <div class="footer__container container grid">
 
-                <div class = "footerclass">
+                <!-- <div class = "footerclass">
                     <h1 class="footer__title"> Abdullah Alam Tapadar </h1>
                     <span class="footer__subtitle"> Computer Science Engineer and Web Developer</span>
-                </div>
+                </div> -->
 
                 <ul class="footer__links">
                     <li>
@@ -941,7 +955,7 @@
                 </div>
             </div>
 
-            <p class="footer__copy">&#169; Made with 💓 by Abdullah.</p>
+            <p class="footer__copy"> <span style="color : white;"> &#169; Made with 💓 by Abdullah. </span></p>
         </div>
     </footer>
 
