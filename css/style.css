@@ -372,6 +372,9 @@ img{
     /* .footer__links{
       text-align: center;
     } */
+     .footer__links{
+      padding-right : 10%;
+    }
 }
 
 .nav__list{
